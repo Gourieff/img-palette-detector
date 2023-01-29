@@ -1,1 +1,2 @@
-# img-palette-detector
+# Image Palette Detector
+
