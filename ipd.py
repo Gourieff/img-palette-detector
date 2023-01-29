@@ -20,3 +20,7 @@ print('Detecting... Please wait...')
 # sending params:
 if p_method == '1': ipd.cv2_method(img_file, img_n, img_e, color_c)
 elif p_method == '2': ipd.ct_method(img_file, img_n, img_e, color_c)
+elif p_method == '3':
+    ipd.cv2_method(img_file, img_n, img_e, color_c)
+    print('Detecting... Please wait...')
+    ipd.ct_method(img_file, img_n, img_e, color_c)
