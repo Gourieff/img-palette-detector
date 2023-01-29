@@ -1,3 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+    Image Palette Detector
+    ~~~~~~~~~~
+    Fast and accurate image RGB palette detector by Eugene Gourieff.
+    :copyright: (c) 2023 by Eugene Gourieff.
+    :license: GPL-3.0, see LICENSE for more details.
+"""
+
 import modules.fileTasks as fT
 import modules.inputDialogs as iD
 import modules.main as ipd

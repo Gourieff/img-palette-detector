@@ -2,7 +2,7 @@
 Image Palette Detector
 -----------
 
-Fast image RGB palette detector by Gourieff.
+Fast and accurate image RGB palette detector by Eugene Gourieff.
 
 Links
 `````
@@ -15,7 +15,7 @@ from setuptools import setup
 
 setup(name='img-pd',
       version='0.1',
-      description='Fast image RGB palette detector by Gourieff',
+      description='Fast and accurate image RGB palette detector by Eugene Gourieff',
       url='https://github.com/Gourieff/img-palette-detector',
       author='Gourieff',
       author_email='gourieff@gmail.com',
