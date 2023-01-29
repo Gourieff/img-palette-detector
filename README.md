@@ -10,11 +10,10 @@ $ pip install -r requirements.txt
 ```
 or
 ```
-$ pip install opencv-python
-$ pip install colorthief
+$ pip install opencv-python; colorthief
 ```
 
-__If you want as a package for some reason:__
+__If you want as a package for some reasons:__
 ```
 $ pip install git+https://github.com/Gourieff/img-palette-detector
 ```
