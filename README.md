@@ -30,7 +30,7 @@ Then you see the dialog:
 > 2 - ColorThief based method
 > 3 - Both
 ```
-Type 1,2 or 3 and proceed to the next step:
+Type 1, 2 or 3 and proceed to the next step:
 ```
 Type the filename or path (ex.: image.png):
 ```
