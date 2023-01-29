@@ -16,6 +16,9 @@ def cv2_method(img_file, img_n, img_e, color_c):
     for color in palette:
         print(color)
 
+    palette_num = len(palette)
+    print(f'The Number of dominant colors detected: {palette_num}')
+
     # get img resolution
     image, width, height = fT.img_resolution(img_file)
 
@@ -45,10 +48,12 @@ def cv2_method(img_file, img_n, img_e, color_c):
     # load, combine and save the result through PIL
     img_palette = Image.open(img_n+'_blank'+img_e)
     img_palette.paste(image, (width_c+10, 0))
-    img_palette.save(img_n+'_method-1_palette_'+str(color_c)+'-colors'+img_e)
+    img_palette.save(img_n+'_'+str(color_c)+'-colors-palette'+'_method-1'+img_e)
 
     # remove blank palette file
     fT.f_remove(img_n+'_blank'+img_e)
+
+    print('Done!')
 
 def ct_method(img_file, img_n, img_e, color_c):
     # getting img through colorthief
@@ -100,4 +105,6 @@ def ct_method(img_file, img_n, img_e, color_c):
     button_img.paste(image, (width_c+10, 0))
 
     # save the image with the rectangles
-    button_img.save(img_n+'_method-2_palette_'+str(color_c)+'-colors'+img_e)
+    button_img.save(img_n+'_'+str(color_c)+'-colors-palette'+'_method-2'+img_e)
+
+    print('Done!')
