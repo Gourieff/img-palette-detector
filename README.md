@@ -54,6 +54,7 @@ And type how much color must be in the Palette, for example:
 ```
 5
 ```
+Then wait a little for the result.
 
 ## Example:
 
