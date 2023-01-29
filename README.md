@@ -10,7 +10,7 @@ $ pip install -r requirements.txt
 ```
 or
 ```
-$ pip install opencv-python; colorthief
+$ pip install opencv-python; colorthief; argparse
 ```
 
 __If you want as a package for some reasons:__
@@ -20,6 +20,21 @@ $ pip install git+https://github.com/Gourieff/img-palette-detector
 
 ## Usage:
 
+```
+python ipd.py -i "C:\my super images\image_file_name.png" -m "3" -c "5"
+```
+> Where optional arguments are:
+```
+  -i PATH_TO_IMAGE  Path to the image file
+  -m METHOD         Method to build Palette: 1 - OpenCV based method, 2 - ColorThief based method, 3 - Both
+  -c COLORS_COUNT   How much colors on the Palette must be: 2 - is minimum, don't type too much, 3-7 is optimal
+```
+or just type for help:
+```
+python ipd.py -h
+```
+
+You can also run the App in dialog mode:
 ```
 $ python ipd.py
 ```
