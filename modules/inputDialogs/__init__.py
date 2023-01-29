@@ -1,7 +1,7 @@
 def set_method():
-    method = input('How to build Palette? (Choose 1 or 2)\n1 - OpenCV based method\n2 - ColorThief based method\n')
-    while int(method) != 1 and int(method) != 2:
-        method = input('How to build Palette? (Choose 1 or 2)\n1 - OpenCV based method\n2 - ColorThief based method\n')
+    method = '0'
+    while int(method) != 1 and int(method) != 2 and int(method) != 3:
+        method = input('How to build Palette? (Choose 1, 2 or 3)\n1 - OpenCV based method\n2 - ColorThief based method\n3 - Both\n')
     else:
         return method
 
