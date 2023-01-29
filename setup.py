@@ -14,7 +14,7 @@ Links
 from setuptools import setup
 
 setup(name='img-pd',
-      version='0.1',
+      version='0.2',
       description='Fast and accurate image RGB palette detector by Eugene Gourieff',
       url='https://github.com/Gourieff/img-palette-detector',
       author='Gourieff',
@@ -24,6 +24,7 @@ setup(name='img-pd',
       py_modules=['ipd'],
       install_requires=[
         'opencv-python',
-        'colorthief'
+        'colorthief',
+        'argparse'
       ],
       zip_safe=False)
