@@ -85,4 +85,4 @@ Method 2:
 
 ![2](https://github.com/Gourieff/img-palette-detector/raw/main/sample/image_5-colors-palette_method-2.png)
 
-For most images Method 1 is more accurate, but for some images Method 2 will give you a better result
+For most images Method 1 is more accurate, but for some images (as shown above) Method 2 will give you a better result
