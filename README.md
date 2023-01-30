@@ -47,7 +47,7 @@ Then you see the dialog:
 ```
 Type 1, 2 or 3 and proceed to the next step:
 ```
-Type the filename or path (ex.: image.png):
+> Type the filename or path (ex.: image.png):
 ```
 Type a full or a relative path to your image or just an image name if your image is at the same folder:
 ```
