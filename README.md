@@ -106,16 +106,16 @@ $ python ipd.py
 
 __Source Image:__
 
-![0](https://github.com/Gourieff/img-palette-detector/raw/main/sample/image.png)
+<img src="https://github.com/Gourieff/img-palette-detector/raw/main/sample/image.png" alt="image" width="50%"/>
 
 __Output Result:__
 
 Method 1:
 
-![1](https://github.com/Gourieff/img-palette-detector/raw/main/sample/image_5-colors-palette_method-1.png)
+<img src="https://github.com/Gourieff/img-palette-detector/raw/main/sample/image_5-colors-palette_method-1.png" alt="image_5-colors-palette_method-1" width="50%"/>
 
 Method 2:
 
-![2](https://github.com/Gourieff/img-palette-detector/raw/main/sample/image_5-colors-palette_method-2.png)
+<img src="https://github.com/Gourieff/img-palette-detector/raw/main/sample/image_5-colors-palette_method-2.png" alt="image_5-colors-palette_method-2" width="50%"/>
 
 For most images Method 1 is more accurate, but for some images (as shown above) Method 2 will give you a better result
