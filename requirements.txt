@@ -1,3 +1,4 @@
 opencv-python
 colorthief
 argparse
+pysimplegui
