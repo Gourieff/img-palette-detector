@@ -41,6 +41,7 @@ python ipd.py -i "C:\my super images\image_file_name.png" -m "3" -c "5"
   -i PATH_TO_IMAGE  Path to the image file
   -m METHOD         Method to build the Palette: 1 - OpenCV based method, 2 - ColorThief based method, 3 - Both
   -c COLORS_COUNT   How much colors on the Palette must be: 2 - is minimum, don't type too much, 3-7 is optimal
+  -d                To run Application in the dialog mode w/o GUI
 ```
 or just type for help:
 ```
