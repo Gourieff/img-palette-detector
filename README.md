@@ -2,7 +2,7 @@
 
 This is a simple python application that detects dominant color of your source image and create an output palette combined with the source image.
 
-Application has 3 type of user-interface:
+Application has 3 types of the user-interface:
 * the comand-line with arguments:
 
 <img src="https://github.com/Gourieff/img-palette-detector/raw/main/docs/img/cl-mode.jpg" alt="cl-mode" width="50%"/>
