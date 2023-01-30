@@ -6,7 +6,7 @@ def get_file():
     #        [sg.InputText(size=(50, 1), key='-FILENAME-'), sg.FileBrowse()],
     #        [sg.Button('Go'), sg.Button('Exit')]]
     # event1, values1 = sg.Window('Normal Filename', layout).read(close=True)
-    file = sg.popup_get_file('Type the path or the filename here or navigate to the destination', 'Select any image (png, jpg, bmp)')
+    file = sg.popup_get_file('Type the path or the filename here or navigate to the destination', 'Select any image (png, jpg, bmp)', grab_anywhere=True)
     if file is None: file = '' # by default
     return file
 
@@ -16,12 +16,12 @@ def set_method():
     active_radio_button = None
     btn_selected = '1'
 
-    layout = [  [sg.Text('How to build the Palette? Choose 1, 2 or 3')],
+    layout = [  [sg.Text('Choose 1, 2 or 3\n1 - OpenCV based method\n2 - ColorThief based method\n3 - Both')],
                 [sg.Text("-1- is default if nothing's chosen")],
                 [sg.Button(name) for name in radio_keys],
                 [sg.Button('Ok'), sg.Button('Cancel')]  ]
 
-    window = sg.Window('How to build Palette?', layout, use_default_focus=False, element_justification='c', size=(360,150), grab_anywhere=True)
+    window = sg.Window('How to build the Palette?', layout, use_default_focus=False, element_justification='c', size=(380,200), grab_anywhere=True)
 
     while True: # Event Loop            
         event, values = window.read()
@@ -39,7 +39,7 @@ def set_method():
     return btn_selected
 
 def colors_num():
-    num = sg.popup_get_text("2 - is minimum, don't type too much, 3-7 is optimal\n-5- is default if nothing's chosen", 'How much colors on the Palette must be?')
+    num = sg.popup_get_text("2 - is minimum, don't type too much, 3-7 is optimal\n-5- is default if nothing's chosen", 'How much colors on the Palette must be?', grab_anywhere=True)
     if num != '' and num is not None:
         if int(num) < 2: num = 2
         elif int(num) > 24:
