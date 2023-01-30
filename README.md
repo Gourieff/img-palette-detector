@@ -17,7 +17,11 @@ Application has 3 types of the user-interface:
 
 ## Installation
 
-__Just download or clone the repo and install requirements:__
+__Just [download](https://github.com/Gourieff/img-palette-detector/archive/refs/heads/main.zip) or clone the repo__
+```
+git clone https://github.com/Gourieff/img-palette-detector
+```
+__and install requirements:__
 ```
 pip install -r requirements.txt
 ```
