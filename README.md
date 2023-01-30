@@ -6,22 +6,22 @@ This is a simple python application that detects dominant color of your source i
 
 __Just download or clone the repo and install requirements:__
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 or
 ```
-$ pip install opencv-python; colorthief; argparse
+pip install opencv-python; colorthief; argparse
 ```
 
 __If you want to use as a package for some reasons:__
 ```
-$ pip install git+https://github.com/Gourieff/img-palette-detector
+pip install git+https://github.com/Gourieff/img-palette-detector
 ```
 
 ## Usage:
 
 ```
-$ python ipd.py -i "C:\my super images\image_file_name.png" -m "3" -c "5"
+python ipd.py -i "C:\my super images\image_file_name.png" -m "3" -c "5"
 ```
 > Where optional arguments are:
 ```
@@ -31,12 +31,12 @@ $ python ipd.py -i "C:\my super images\image_file_name.png" -m "3" -c "5"
 ```
 or just type for help:
 ```
-$ python ipd.py -h
+python ipd.py -h
 ```
 
 You can also run the App in the dialog mode:
 ```
-$ python ipd.py
+python ipd.py
 ```
 Then you see the dialog:
 ```
