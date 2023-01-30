@@ -29,11 +29,12 @@ or
 ```
 pip install opencv-python; colorthief; argparse; pysimplegui
 ```
-
+<!---
 __If you want to use as a package for some reasons:__
 ```
 pip install git+https://github.com/Gourieff/img-palette-detector
 ```
+--->
 
 ## Usage:
 
