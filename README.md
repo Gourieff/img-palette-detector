@@ -1,6 +1,19 @@
-# [Image Palette Detector](https://github.com/Gourieff/img-palette-detector)
+# Image Palette Detector
 
 This is a simple python application that detects dominant color of your source image and create an output palette combined with the source image.
+
+Application has 3 type of user-interface:
+* the comand-line with arguments:
+
+<img src="https://github.com/Gourieff/img-palette-detector/raw/main/docs/img/cl-mode.jpg" alt="cl-mode" width="50%"/>
+
+* the dialog with no-GUI:
+
+<img src="https://github.com/Gourieff/img-palette-detector/raw/main/docs/img/no-gui-dialog-mode.jpg" alt="no-gui-dialog-mode" width="50%"/>
+
+* the dialog with GUI:
+
+<img src="https://github.com/Gourieff/img-palette-detector/raw/main/docs/img/gui-dialog-mode.jpg" alt="gui-dialog-mode" width="50%"/>
 
 ## Installation
 
@@ -10,7 +23,7 @@ pip install -r requirements.txt
 ```
 or
 ```
-pip install opencv-python; colorthief; argparse
+pip install opencv-python; colorthief; argparse; pysimplegui
 ```
 
 __If you want to use as a package for some reasons:__
@@ -34,9 +47,14 @@ or just type for help:
 python ipd.py -h
 ```
 
-You can also run the App in the dialog mode:
+You can also run the App in the dialog mode
+> with GUI:
 ```
 python ipd.py
+```
+> without GUI:
+```
+python ipd.py -d
 ```
 Then you see the dialog:
 ```
