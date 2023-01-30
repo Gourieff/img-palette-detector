@@ -63,7 +63,7 @@ image_file_name.png
 ```
 Proceed to the next step:
 ```
-How much colors on the Palette must be? (2 - is minimum, don't type too much, 3-7 is optimal)
+> How much colors on the Palette must be? (2 - is minimum, don't type too much, 3-7 is optimal)
 ```
 And type how much color must be in the Palette, for example:
 ```
