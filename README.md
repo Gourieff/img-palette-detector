@@ -21,7 +21,7 @@ $ pip install git+https://github.com/Gourieff/img-palette-detector
 ## Usage:
 
 ```
-python ipd.py -i "C:\my super images\image_file_name.png" -m "3" -c "5"
+$ python ipd.py -i "C:\my super images\image_file_name.png" -m "3" -c "5"
 ```
 > Where optional arguments are:
 ```
@@ -31,7 +31,7 @@ python ipd.py -i "C:\my super images\image_file_name.png" -m "3" -c "5"
 ```
 or just type for help:
 ```
-python ipd.py -h
+$ python ipd.py -h
 ```
 
 You can also run the App in the dialog mode:
