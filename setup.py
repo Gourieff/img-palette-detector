@@ -11,7 +11,7 @@ Links
 
 """
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='img-pd',
       version='0.3',
@@ -20,7 +20,7 @@ setup(name='img-pd',
       author='Eugene Gourieff',
       author_email='gourieff@gmail.com',
       license='GPL-3.0',
-      packages=['modules'],
+      packages=find_packages(),
       py_modules=['ipd'],
       install_requires=[
         'opencv-python',
