@@ -21,7 +21,7 @@ setup(name='img-pd',
       author_email='gourieff@gmail.com',
       license='GPL-3.0',
       packages=find_packages(),
-      py_modules=['ipd','modules'],
+      py_modules=['ipd'],
       install_requires=[
         'opencv-python',
         'colorthief',
