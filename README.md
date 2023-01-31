@@ -25,7 +25,12 @@ Application has 3 types of the user-interface:
 
 ## Installation
 
-__Just [download](https://github.com/Gourieff/img-palette-detector/archive/refs/heads/main.zip) or clone the repo__
+__You can install it as a package:__
+```
+pip install imgpd
+```
+
+__Or just [download](https://github.com/Gourieff/img-palette-detector/archive/refs/heads/main.zip) or clone the repo__
 ```
 git clone https://github.com/Gourieff/img-palette-detector
 ```
@@ -37,31 +42,23 @@ or
 ```
 pip install opencv-python; colorthief; argparse; pysimplegui
 ```
-__You can also install it as a package:__
-```
-pip install imgpd
-```
-
-<!---
-__If you want to use as a package for some reasons:__
-```
-pip install git+https://github.com/Gourieff/img-palette-detector
-```
---->
 
 ## Usage:
 
+### With cl-arguments:
+
+**If you use directly**
 ```
 python ipd.py -i "C:\my super images\image_file_name.png" -m "3" -c "5"
 ```
-**If you installed as a package:**
+**If you use as a package**
 
-> for Windows users
+for Windows users:
 
 ```
 py -m imgpd -i "C:\my super images\image_file_name.png" -m "3" -c "5"
 ```
-> for Linux/MacOS users:
+for Linux/MacOS users:
 
 ```
 imgpd -i /home/user/images/image_file_name.png -m 3 -c 5
@@ -76,13 +73,15 @@ imgpd -i /home/user/images/image_file_name.png -m 3 -c 5
 ```
 or just type for help: `python ipd.py -h` or `imgpd -h`
 
-**You can also run the App in the dialog mode**
+### You can also run the App in the dialog mode:
 
-> with GUI:
+**with GUI:**
 
 `python ipd.py` or `imgpd`
 
-> without GUI:
+(See the GUI images [above](#interface) at 'the dialog with GUI' section)
+
+**without GUI:**
 
 `python ipd.py -d` or `imgpd -d`
 
@@ -98,25 +97,19 @@ Type 1, 2 or 3 and proceed to the next step:
 > Type the filename or path (ex.: image.png):
 ```
 Type a full or a relative path to your image or just an image name if your image is at the same folder:
-```
-C:\my super images\image_file_name.png
-```
-or
-```
-/home/user/images/image_file_name.png
-```
-or
-```
-image_file_name.png
-```
+
+`C:\my super images\image_file_name.png`
+
+or `/home/user/images/image_file_name.png`
+
+or `image_file_name.png`
+
 Proceed to the next step:
 ```
 > How much colors on the Palette must be? (2 - is minimum, don't type too much, 3-7 is optimal)
 ```
-And type how much color must be in the Palette, for example:
-```
-5
-```
+And type how much color must be in the Palette, for example: `5`
+
 Then wait a little for the result.
 
 ## Example:
