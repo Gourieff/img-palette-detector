@@ -37,6 +37,11 @@ or
 ```
 pip install opencv-python; colorthief; argparse; pysimplegui
 ```
+__You can also install it as a package:__
+```
+pip install imgpd
+```
+
 <!---
 __If you want to use as a package for some reasons:__
 ```
@@ -49,6 +54,19 @@ pip install git+https://github.com/Gourieff/img-palette-detector
 ```
 python ipd.py -i "C:\my super images\image_file_name.png" -m "3" -c "5"
 ```
+**If you installed as a package:**
+
+> for Windows users
+
+```
+py -m imgpd -i "C:\my super images\image_file_name.png" -m "3" -c "5"
+```
+> for Linux/MacOS users:
+
+```
+imgpd -i /home/user/images/image_file_name.png -m 3 -c 5
+```
+
 > Where optional arguments are:
 ```
   -i PATH_TO_IMAGE  Path to the image file
@@ -56,20 +74,18 @@ python ipd.py -i "C:\my super images\image_file_name.png" -m "3" -c "5"
   -c COLORS_COUNT   How much colors on the Palette must be: 2 - is minimum, don't type too much, 3-7 is optimal
   -d                To run Application in the dialog mode w/o GUI
 ```
-or just type for help:
-```
-python ipd.py -h
-```
+or just type for help: `python ipd.py -h` or `imgpd -h`
 
-You can also run the App in the dialog mode
+**You can also run the App in the dialog mode**
+
 > with GUI:
-```
-python ipd.py
-```
+
+`python ipd.py` or `imgpd`
+
 > without GUI:
-```
-python ipd.py -d
-```
+
+`python ipd.py -d` or `imgpd -d`
+
 Then you see the dialog:
 ```
 > How to build Palette? (Choose 1, 2 or 3)
@@ -106,7 +122,7 @@ Then wait a little for the result.
 ## Example:
 
 ```
-$ python ipd.py -d
+$ imgpd -d
 > How to build Palette? (Choose 1, 2 or 3)
 > 1 - OpenCV based method
 > 2 - ColorThief based method
