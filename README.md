@@ -132,4 +132,4 @@ Method 2:
 
 <img src="https://github.com/Gourieff/img-palette-detector/raw/main/sample/image_5-colors-palette_method-2.png" alt="image_5-colors-palette_method-2" width="63%"/>
 
-For most images Method 1 is more accurate, but for some images (as shown above) Method 2 will give you a better result
+For most images Method 1 is more accurate, but for some images (as shown above) Method 2 will give you a better result, so I recommend to use 'Both' and then choose which is better.
