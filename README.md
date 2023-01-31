@@ -106,7 +106,7 @@ Then wait a little for the result.
 ## Example:
 
 ```
-$ python ipd.py
+$ python ipd.py -d
 > How to build Palette? (Choose 1, 2 or 3)
 > 1 - OpenCV based method
 > 2 - ColorThief based method
