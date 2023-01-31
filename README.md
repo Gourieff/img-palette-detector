@@ -2,6 +2,14 @@
 
 This is a simple python application that detects dominant color of your source image and create an output palette combined with the source image.
 
+**Guide:**  
+[**Interface**](#interface)  
+[**Installation**](#installation)  
+[**Usage**](#usage)  
+[**Example**](#example)
+
+## Interface
+
 Application has 3 types of the user-interface:
 * the comand-line with arguments:
 
@@ -118,10 +126,10 @@ __Output Result:__
 
 Method 1:
 
-<img src="https://github.com/Gourieff/img-palette-detector/raw/main/sample/image_5-colors-palette_method-1.png" alt="image_5-colors-palette_method-1" width="50%"/>
+<img src="https://github.com/Gourieff/img-palette-detector/raw/main/sample/image_5-colors-palette_method-1.png" alt="image_5-colors-palette_method-1" width="63%"/>
 
 Method 2:
 
-<img src="https://github.com/Gourieff/img-palette-detector/raw/main/sample/image_5-colors-palette_method-2.png" alt="image_5-colors-palette_method-2" width="50%"/>
+<img src="https://github.com/Gourieff/img-palette-detector/raw/main/sample/image_5-colors-palette_method-2.png" alt="image_5-colors-palette_method-2" width="63%"/>
 
 For most images Method 1 is more accurate, but for some images (as shown above) Method 2 will give you a better result
