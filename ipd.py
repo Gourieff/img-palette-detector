@@ -7,7 +7,7 @@
     :license: GPL-3.0, see LICENSE for more details.
 """
 
-__version__ = '0.3'
+__version__ = '0.3.0'
 
 import modules.fileTasks as fT
 import modules.inputDialogs as iD
