@@ -1,6 +1,6 @@
 # Image Palette Detector
 
-This is a simple python application that detects dominant color of your source image and create an output palette combined with the source image.
+This is a simple python application that detects dominant colors of your source image and create an output palette combined with the source image.
 
 **Guide:**  
 [**Interface**](#interface)  
