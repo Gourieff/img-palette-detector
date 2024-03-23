@@ -1,4 +1,4 @@
 opencv-python
 colorthief
 argparse
-pysimplegui
+pysimplegui==4.60.4
